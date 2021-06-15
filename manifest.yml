@@ -1,0 +1,8 @@
+---
+applications:
+- name: chess
+  random-route: true
+  instances: 1
+  memory: 128M
+  disk_quota: 256M
+  timeout: 60
